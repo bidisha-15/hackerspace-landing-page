@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(19, 18, 18);
+  }
+  h1{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+  }
+  #p1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+  }
+  #p2{
+    color: black;
+    font-family: 'Inter', sans-serif;
+  }
+  input:focus{
+    outline: none;
+  }
+  .container{
+    margin: 20px auto 20px auto;
+    border-width: 0.25px;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgb(59, 56, 56);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:fit-content;
+    width: fit-content;
+    }
+    .input,textarea{
+        border: 1px solid #ccc;
+        font-family: inherit;
+        font-size: inherit;
+        padding: 5px;
+    }
+      .textarea {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        resize: both;
+        min-height: 40px;
+        line-height: 20px;
+        background-color: white;
+        padding: 10px;
+      }
+      .textarea:focus{
+        outline: none;
+      }
+      .textarea[contenteditable]:empty::before {
+        content: "";
+        color: gray;
+      }
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        border-radius: 2px;
+      }
+      input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        margin:8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        border-radius: 2px;
+      }
+      
+        input[type=tel] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        border-radius: 2px;
+      }
+      .btn
+    {
+    display: inline-block;
+    align-content: center;
+    justify-content:center;
+    color: white;
+    margin-left: 5px;
+    background-color: rgb(133, 64, 8);
+     padding: 6px;
+     border-width: 2px;
+     border-color: rgba(29, 28, 28, 0.541);
+     border-radius: 5px;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }

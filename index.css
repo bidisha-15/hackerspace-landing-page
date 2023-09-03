@@ -1,0 +1,442 @@
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            overflow-x: hidden;
+        }
+        .body-pri{
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0rem;
+            background-image: url("./public/background.png");
+            width: 1500px;
+            height: 1276px;
+            padding-left: 20px;
+            margin-right: 0px;
+        }
+        .menu
+        {
+            position:relative;
+            background-color: rgb(2, 1, 7);
+            padding: 0px;
+            color: white;
+            overflow: hidden;
+            width:1327px;
+            display: flex;
+            margin: 0px;
+        }
+        .options{
+            border-radius: 290px;
+            background-color: #1c1c1c;
+            width: 475px;
+            height: 70px;
+            gap: 10px;
+            margin-left: 50px;
+            padding: 0px 32px 6px 32px;
+            display: flex;
+            align-items: center;
+        }
+        .head2{
+            margin-top: 15px;
+        }
+        .container-1{
+            display: flex;
+            flex-direction: row;
+        }
+        .items{
+          display: inline;
+          font-size: 16px;
+          font-weight: 400;
+          margin: 20px;
+          width: 70px;
+          height: 25px;
+          font-family: 'Inter', sans-serif;
+        }
+        .items:hover{
+            cursor: pointer;
+            color: #e06e11;
+            font-weight: 200;
+        }
+        .join{
+            display: inline;
+            margin: 15px 140px 15px 140px;
+            height: 46px;
+            width: 114.48px;
+            font-size: 16px;
+            border-radius: 40px;
+            color: white;
+            background-color: #e75f00;
+            padding: 7px 15px 7px 15px;
+            border-width: 0px;
+        }
+        a:link{
+            text-decoration: none;
+            color: white;
+        }
+        a:visited{
+            text-decoration: none;
+            color: white;
+        }
+        a:active{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            text-decoration: none;
+            color: #e06e11;
+        }
+        
+        .join:hover{
+            cursor: pointer;
+            color: black;
+        }
+        .social-grp{
+            display:flex ;
+            flex-direction: row;
+            margin: 27px 400px 15px 100px;
+            height: 51px;
+            width: 157px;
+        }
+        .social{
+            width: 40px;
+            height: 40px;
+            margin: 7px;
+            top: 10px;
+            left: 110.5px;
+        }
+        #ig:hover{
+            cursor: pointer;
+            transform: scale(130%);
+        }
+        #fb:hover{
+            cursor: pointer;
+            transform: scale(130%);
+        }
+        #git:hover{
+            cursor: pointer;
+            transform: scale(130%);
+        }
+        .welcome-sec{
+            width: 1200px;
+            height: 250px;
+            display: flex;
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+        .welcome{
+            width: 608px;
+            height: 249px;
+            margin-top: 45px;
+            left: 129px;
+        }
+        .bottom{
+            width: 1200px;
+            height: 250px;
+            display: flex;
+            margin: 0px;
+        }
+        #t1{
+            font-family: 'Inter', sans-serif;   
+            font-size: 64px;
+            color: white ;
+            font-weight: 200;
+        }
+        #t2{
+            font-family: 'Inter', sans-serif;   
+            font-size: 40px;
+            color: white ;
+            font-weight: 100;
+        }
+        #hack{
+            font-family: 'Inter', sans-serif;   
+            color: #e75f00;
+            font-size: 90px;
+            font-weight: 700;
+        }
+        #web{
+            font-family: 'Inter', sans-serif;   
+            color: #e75f00;
+            font-size: 64px;
+            font-weight: 400;
+        }
+        #tag{
+            font-family: 'Inter', sans-serif;   
+           
+            font-size: 40px;
+            color: #a6a6a4;
+            font-weight: 400;
+        }
+        #tag2{
+            font-family: 'Inter', sans-serif;   
+            font-size: 40px;
+            color: #a6a6a4;
+            font-weight: 100;
+        }
+        .details{
+            width: 409px;
+            height: 212px;
+            margin-top: 57px;
+            margin-left: 170px;
+            gap: 38px;
+            font-weight: 200;
+            font-size: 20px;
+            color: #d7d7d7;
+            font-family: 'Inter', sans-serif;   
+        }
+        #explore{
+            color:rgb(92, 107, 241);
+            font-weight: 200;
+        }
+        #create{
+            color: rgb(235, 197, 30);
+            font-weight: 200;
+        }
+        #collab{
+            color:rgb(152, 236, 24) ;
+            font-weight: 200;
+        }
+        .container{
+            width: 551px;
+            height: 524px;
+            margin-left: 2rem;
+            margin-top: 1rem;
+        }
+        #bgcircle{
+            width: 461px;
+            height: 469px;
+            top: 1514px;
+            left: 799px;
+            border: 3px #ffffff 45%;
+        }
+        .para{
+            width: 409px;
+            height: 212px;
+            gap: 10px;
+
+        }
+        .stat{
+            width: 201px;
+            height: 40px;
+            gap: 8px;
+            opacity: 50%;
+        }
+        
+        .webdev{
+            width: 1197px;
+            height: 500px; 
+            margin-top: 50px;
+            left: 113px;
+            padding-left: 50px;
+            padding-right: 35px;
+        }
+        #btn1{
+            width: 200px;
+            height: 63px;
+            top: 1857px;
+            left: 10px;
+            border-radius: 20px;
+            background-color:#e75f00 ;
+            color: white;
+            font-size: 16px;
+            font-weight: bolder;
+            border-width: 0px;
+            margin: 0px;
+        }
+        #btn2{
+            width: 200px;
+            height: 63px;
+            top: 1857px;
+            left: 100px;
+            border-radius: 20px;
+            background-color:#e75f00 ;
+            color: white;
+            font-size: 16px;
+            font-weight:bolder;
+            border-width: 0px;
+            margin: 35px;
+        }
+        #btn1:hover, #btn2:hover{
+            cursor: pointer;
+            background-color:#e76e17 ;
+            color: rgb(17, 17, 17);
+        }
+        #icon1
+        {
+            width: 100px;
+            height: 100px;
+            top: -20rem;
+            left: 26rem;
+            position: relative;
+
+        }   
+        #icon2
+        {
+            width: 80px;
+            height: 80px;
+            top: -33rem;
+            left: 5rem;
+            position: relative;
+        }
+#icon3
+{
+    width: 80px;
+    height: 80px;
+    top: -8rem;
+    left: 9rem;
+    position: relative;
+}
+#icon4
+{
+    width: 90px;
+    height: 90px;
+    top: -8rem;
+    left: -15rem;
+    position: relative;
+}
+#icon5
+{
+    width: 80px;
+    height: 80px;
+    top: -20rem;
+    left: -24rem;
+    position: relative;
+}
+.icon:hover{
+    transform: scale(120%);
+}
+.searchbox { 
+    position: relative;
+     width:240px; }
+.searchbox img { 
+    position: absolute; 
+    top: 11px;
+     left: 10px;
+width: 25px;
+height: 25px;
+filter: invert(100%);
+mix-blend-mode:lighten;
+ }
+ .searchbox input[type=text]{
+    width:20%;
+    height: 47px;
+    top: 396px;
+    left: 902px;
+    padding: 12px 176px 13px 52px;
+    border-radius: 20px;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: 'Inter', sans-serif; 
+    border: none;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+input[type=text]:focus{
+    width: 360px;
+    border: none;
+    outline: none;
+}
+footer {
+    display:flex;
+    background-color: rgb(24, 24, 24);
+    height:50px;
+    width: 100vw;
+    margin: 0px;
+    position: relative;
+    bottom: -41rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+ .footernote{ 
+   color:rgb(255, 255, 255) ; 
+   font-size: 12px; 
+   font-weight: normal; 
+   font-size: 6; 
+   font-family: monospace;
+ }
+ @media screen and (max-width:768px)
+ {
+     .welcome-sec{
+         flex-direction:column;
+     }
+     .container{
+         flex-direction:column;
+     }
+     .bottom{
+         flex-direction: column;
+     }
+     .body-pri{
+         width: 100vw;
+     }
+     .social-grp{
+         margin:27px 15px 100px;
+     }
+     .join{
+         margin:15px 10px 15px 40px ;
+     }
+     .menu{
+         flex-direction: column;
+     }
+     #web, #t1{
+         font-size: 32px;
+     }
+     #t2,#ag,#tag2{
+         font-size: 20px;
+     }
+     #hack{
+         font-size: 45px;
+     }
+     .body{
+         overflow-x: hidden;
+     }
+ .footer{
+     display: flex;
+     background-color: rgb(24, 24, 24);
+     height: 50px;
+     width: 100vw;
+     margin: 0px;
+     position: relative;
+     bottom: -41rem;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     left: -1rem;
+ }
+}
+
+@media screen and (max-width:600px){
+    #web, #t1{
+        font-size: 29px;
+    }
+    #t2,#ag,#tag2{
+        font-size: 18px;
+    }
+    #hack{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:900px){
+    #web, #t1{
+        font-size: 42px;
+    }
+    #t2,#ag,#tag2{
+        font-size: 30px;
+    }
+    #hack{
+        font-size: 55px;
+    }
+}
+@media screen and (max-width:1200px){
+    #web, #t1{
+        font-size: 55px;
+    }
+    #t2,#ag,#tag2{
+        font-size: 35px;
+    }
+    #hack{
+        font-size: 65px;
+    }
+}
